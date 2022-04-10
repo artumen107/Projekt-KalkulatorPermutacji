@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+
+<html lang="pl">
+
+
+<head>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;1,500&display=swap" rel="stylesheet">
+<title>Kalkulator permutacji</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+
+<link rel="styleSheet" href="Style.css">
+
+<script type="text/javascript" src="Functions.js"></script>
+</head>
+
+<body>
+
+<div class = "content">
+<header>
+<div class = "header" id = "header">
+
+<p class = "a" id ="testowy" >Artur Mendela, Kalkulator Permutacji</p>
+</div>
+</header>
+
+<div class = "bttsUpContainer">
+<div class="btts-itemUp"><button class ="btts-buttonUp" id="bt1" type="button">1</button></div>
+<div class="btts-itemUp"><button class ="btts-buttonUp" id="bt2" type="button">2</button></div>
+<div class="btts-itemUp"><button class ="btts-buttonUp" id="bt3" type="button" >3</button></div>
+<div class="btts-itemUp"><button class ="btts-buttonUp" id="bt4" type="button">4</button></div>
+<div class="btts-itemUp"><button class ="btts-buttonUp" id="bt5" type="button" >5</button></div>
+<div class="btts-itemUp"><button class ="btts-buttonUp" id="bt6" type="button">6</button></div>
+<div class="btts-itemUp"><button class ="btts-buttonUp" id="bt7" type="button" >7</button></div>
+<div class="btts-itemUp"><button class ="btts-buttonUp" id="bt8" type="button">8</button></div>
+<div class="btts-itemUp"><button class ="btts-buttonUp" id="bt9" type="button" >9</button></div>
+</div>
+<div class = "permutation">
+<div class = "permContainer">
+<table id="permA">
+<tr>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+<th>7</th>
+<th>8</th>
+<th>9</th>
+</tr>
+<tr>
+<td><input id="1" value = "" type="number" ></td>
+<td><input id="2" value = "" type="number" ></td>
+<td><input id="3" value = "" type="number" ></td>
+<td><input id="4" value = "" type="number" ></td>
+<td><input id="5" value = "" type="number" ></td>
+<td><input id="6" value = "" type="number" ></td>
+<td><input id="7" value = "" type="number" ></td>
+<td><input id="8" value = "" type="number" ></td>
+<td><input id="9" value = "" type="number" ></td>
+</tr>
+</table>
+</div>
+<div class="bttsContainer">
+<div class="btts-item"><button id="powerbtA" type="button" class="bttOperation">POTĘGA</button></div>
+<div class="btts-item"><button id="reversebtA" type="button" class="bttOperation">ODWROTNOŚĆ</button></div>
+<div class="btts-item">
+
+	<label for="historiaA">Historia:</label>
+	<select name="historiaA" id="historiaA">
+    <option id = "1111" value="111">1</option>
+    <option id = "2222" value="222">2</option>
+	<option id = "3333" value="333">3</option>
+	<option id = "4444" value="444">4</option>
+	<option id = "5555" value="555">5</option>
+	<option id = "6666" value="777">6</option>
+	<option id = "7777" value="888">7</option>
+	<option id = "8888" value="999">8</option>
+	<option id = "9999" value="101010">9</option>
+	
+</select>
+</div>
+
+</div>
+<div class="powerTextContainer">
+<div id="powerA"><input id="powerAInput" type="number"></div>
+<div id="test" style="font-style:italic; margin-top:15px;height: 10px">
+Tablica permutacji 1
+</div>
+</div>
+
+</div>
+
+
+
+<div class = "permutation">
+<div class = "permContainer">
+<table id="permB">
+<tr>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+<th>7</th>
+<th>8</th>
+<th>9</th>
+</tr>
+<tr>
+<td><input id="11" value = "1" type="number"></td>
+<td><input id="22" value = "2" type="number"></td>
+<td><input id="33" value = "3" type="number"></td>
+<td><input id="44" value = "4" type="number"></td>
+<td><input id="55" value = "5" type="number"></td>
+<td><input id="66" value = "6" type="number"></td>
+<td><input id="77" value = "7" type="number"></td>
+<td><input id="88" value = "8" type="number"></td>
+<td><input id="99" value = "9" type="number"></td>
+</tr>
+</table>
+</div>
+<div class="bttsContainer">
+<div class="btts-item"><button id="powerbtB" type="button" class="bttOperation">POTĘGA</button></div>
+<div class="btts-item"><button id="reversebtB" type="button" class="bttOperation">ODWROTNOŚĆ</button></div>
+<div class="btts-item">
+
+	<label for="historiaB">Historia:</label>
+	<select name="historiaB" id="historiaB">
+    <option id = "11111" value="111">1</option>
+    <option id = "22222" value="222">2</option>
+	<option id = "33333" value="333">3</option>
+	<option id = "44444" value="444">4</option>
+	<option id = "55555" value="555">5</option>
+	<option id = "66666" value="777">6</option>
+	<option id = "77777" value="888">7</option>
+	<option id = "88888" value="999">8</option>
+	<option id = "99999" value="101010">9</option>
+	
+</select>
+</div>
+</div>
+
+
+<div class="powerTextContainer">
+<div id="powerB"><input id="powerBInput" type="number"></div>
+<div id="test2" style="font-style:italic; margin-top:15px;height: 10px">
+Tablica permutacji 2
+</div>
+</div>
+</div>
+
+<div class = "permutationR">
+<div class = "permContainer">
+<table id="permResult">
+<tr>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+<th>7</th>
+<th>8</th>
+<th>9</th>
+</tr>
+<tr>
+<td id = "111"></td>
+<td id = "222"></td>
+<td id = "333"></td>
+<td id = "444"></td>
+<td id = "555"></td>
+<td id = "666"></td>
+<td id = "777"></td>
+<td id = "888"></td>
+<td id = "999"></td>
+</tr>
+</table>
+</div>
+<div class="bttsContainer">
+<div class="btts-item"><button class="bttOperation" id="multiplyBt" type="button" >ILOCZYN</button></div>
+<div class="btts-item"><button id="cycleBt" type="button">POKAŻ CYKL</button></div>
+<div class="btts-item">
+
+	<label for="historiaC">Historia:</label>
+	<select name="historiaC" id="historiaC">
+    <option id = "111111" value="111">1</option>
+    <option id = "222222" value="222">2</option>
+	<option id = "333333" value="333">3</option>
+	<option id = "444444" value="444">4</option>
+	<option id = "555555" value="555">5</option>
+	<option id = "666666" value="777">6</option>
+	<option id = "777777" value="888">7</option>
+	<option id = "888888" value="999">8</option>
+	<option id = "999999" value="101010">9</option>
+	
+</select>
+</div>
+
+</div>
+<div style="font-style:italic">
+<p id="resultText" style="padding:auto; margin:auto; margin-top:15px;height: 10px">Tablica wynikowa</p>
+</div>
+</div>
+
+
+
+</body>
+
+</html>

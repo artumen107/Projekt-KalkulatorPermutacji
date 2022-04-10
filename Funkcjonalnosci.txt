@@ -1,0 +1,14 @@
+-Wprowadzanie tabelaryczne
+-Wprowadzanie klawiaturą na ekranie
+-Wprowadzanie myszką (strzałeczki w polu input)
+-Obliczanie dowolnej dodatniej potęgi, iloczynu, permutacji odwrotnej
+-Widok tablicy wynikowej w postaci cyklicznej
+-Historia wszystkich permutacji - wprowadzanych oraz wynikowych
+-Dostosowany wygląd aplikacji pod telefony, komputery, laptopy
+-Zablokowane wpisywanie innych znaków oprócz liczb
+-Kiedy potęga będzie niedodatnia, działanie nie wykona się
+-Czyste CSS, JS
+-Brak skalowania i przejrzystość aplikacji
+-Poprawne zachowanie aplikacji przy obrocie
+-Brak pustych miejsc
+
